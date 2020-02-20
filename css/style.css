@@ -3,3 +3,30 @@
     border: 0;
     box-sizing: border-box;
 }
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+#container .content {
+
+    height: 700px;
+    margin: auto;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: yellow;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    padding: 0 20px;
+}
+
+ul li {
+    text-align: center;
+}
